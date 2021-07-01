@@ -64,10 +64,17 @@ function apply_dark_theme() {
 /*===== Random Colour =====*/
 // JavaScript code to pick 
 // a random color from array
-var counterForColor = 1;
-window.onload = pickColor(counterForColor)
+window.onload = prpick()
 
-function pickColor(counterForColor) {
+function prpick() {
+    pickColor();
+    const cb = document.getElementById('mode-setter');
+    if (cb.checked) { // dark mode enabled
+        apply_dark_theme();
+    }
+}
+
+function pickColor() {
     console.log("in pickColor function")
     var colors = [
         // '#e17f6f', '#eebd5a', '#95c78e'
@@ -78,7 +85,6 @@ function pickColor(counterForColor) {
     var r = document.querySelector(':root')
     console.log("first color is " + random_color)
     r.style.setProperty('--first-color', random_color)
-    apply_dark_theme();
 }
 
 /*SCROLL HOME*/
