@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+    <title>Mudigonda Himansh</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<!-- <body> -->
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Himansh</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#project" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Ping Me</a>
+                    </li>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <!-- Rounded switch -->
+                    <label class="switch" onClick="theme_switcher()">
+                            <input type="checkbox" id="mode-setter" checked="true"/>
+                            <span class="slider round"></span>
+                        </label>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hello world!<br />I'am
+                    <span class="home__title-color">Himansh</span> Mudigonda<br>
+                    <span class="home__subtitle">
+                            <span class="home__subtitle-color">P</span>ython Programmer,
+                    <span class="home__subtitle-color">L</span>inux & <br>
+                    <span class="home__subtitle-color">D</span>ata Science
+                    <span class="home__subtitle-color">E</span>nhusiast
+                    </span>
+                </h1>
+
+                <a href="#contact" class="button">Contact</a> &nbsp;&nbsp;
+                <a href="https://drive.google.com/file/d/1b5RIypcmRDecZKyfR5g4y-_YnPaOH1v_/view" target="_blank" class="button">See My Resume</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/himansh-m" target="_blank" class="home__social-icon"><i
+                            class="bx bxl-linkedin-square"></i></a>
+                <a href="https://instagram.com/hmmanshh" target="_blank" class="home__social-icon"><i
+                            class="bx bxl-instagram-alt"></i></a>
+                <a href="https://github.com/ruhend" target="_blank" class="home__social-icon"><i
+                            class="bx bxl-github"></i></a>
+                <a href="mailto:mudigonda.himanshh@gmail.com" target="_blank" class="home__social-icon"><i
+                            class="bx bx-mail-send"></i></a>
+            </div>
+
+            <div class="home__img">
+                <img class="home_image" src="assets/img/perfil.png" alt="" />
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <!-- <div id="colour-picker">hi colour me</div> -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="" />
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Himansh AKA @ruhend</h2>
+                    <p class="about__text">
+                        🧑‍🎓 Student @SRMAP <br /> 🐧 Linux and 💻 Data Science Enhusiast <br /> 👨‍💼 Cofounder of Farbe <br /> 🐍 I lub python<br />🍕 I eat lots of pizze<br />
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">
+                        I first started coding when I was in 9th standard. I've never given up and its always fun!
+                    </p>
+
+                    <!-- python -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <!-- <i class='bx bx-copyright skills__icon'></i> -->
+                            <span class="iconify skill-logo" data-icon="bx-bxl-python" data-inline="false"></span>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__python"></div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <!-- <i class='bx bx-copyright skills__icon'></i> -->
+                            <span class="iconify skill-logo" data-icon="simple-icons:java" data-inline="false"></span>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__Java"></div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <!-- C -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxs-copyright skills__icon iconify skill-logo"></i>
+                            <span class="skills__name">C</span>
+                        </div>
+                        <div class="skills__bar skills__C"></div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+
+                    <!-- Shell -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxs-terminal skills__icon iconify skill-logo"></i>
+                            <span class="skills__name">Shell</span>
+                        </div>
+                        <div class="skills__bar skills__C"></div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+
+                    <!-- C++ -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <!-- <i class='bx bx-copyright skills__icon'></i> -->
+                            <span class="iconify skill-logo" data-icon="bx-bxl-c-plus-plus" data-inline="false"></span>
+                            <span class="skills__name">C++</span>
+                        </div>
+                        <div class="skills__bar skills__Cpp"></div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/project3.jpg" alt="" class="skills__img" />
+                </div>
+            </div>
+        </section>
+
+        <!--===== project =====-->
+        <section class="project section" id="project">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project__headings">
+                <h2 class="project__subtitle">Open Source Projects</h2>
+                <p class="project__text">Here is the list of few of my projects</p>
+            </div>
+            <div class="project__container">
+                <a class="project__links" href="https://github.com/ruhend/env-path-GUI" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">env-path-GUI</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project__links" href="https://github.com/ruhend/scraptcha" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">sCrAPTCHA</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project__links" href="https://github.com/ruhend/garudafy" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">Garudafy</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project__links" href="https://github.com/ruhend/profanity-censor" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">Profanity Censor</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project__links" href="https://github.com/ruhend/Backtracking-Sudoku-Solver" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">Backtraking Sudoku Solver</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project__links" href="https://github.com/ruhend/dotos-soundpack" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">DotOS Soundpack Module</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project__links" href="https://github.com/ruhend/oos-soundpack" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">OOS11 Soundpack Module</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project__links" href="https://github.com/ruhend/gboard-new-ui" target="_blank">
+                    <div class="project__data">
+                        <div class="project__names">
+                            <span class="project__name">Gboard-New-UI</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Ping Me</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="POST" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input" />
+                    <input type="mail" placeholder="Email" class="contact__input" />
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input" style="resize: none"></textarea>
+                    <input type="button" value="Submit" class="contact__button button" />
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Himansh Mudigonda</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/himansh-m" target="_blank" class="footer__social-icon"><i
+                        class="bx bxl-linkedin-square"></i></a>
+            <a href="https://instagram.com/hmmanshh" target="_blank" class="footer__social-icon"><i
+                        class="bx bxl-instagram-alt"></i></a>
+            <a href="https://github.com/ruhend" target="_blank" class="footer__social-icon"><i
+                        class="bx bxl-github"></i></a>
+            <a href="mailto:mudigonda.himanshh@gmail.com" target="_blank" class="footer__social-icon"><i
+                        class="bx bx-mail-send"></i></a>
+            <div class="page__counter">
+                <a href='https://www.stat-counter.org/'>Hit&Visitor Counter</a>
+                <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=59e01de3a8cf735710816e3ed34eaa5860383d7f'></script>
+                <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/843316/t/5"></script>
+            </div>
+        </div>
+        <p class="footer__text">&#169; 2022 copyright all right reserved</p>
+    </footer>
+
+</body>
+
+</html>
