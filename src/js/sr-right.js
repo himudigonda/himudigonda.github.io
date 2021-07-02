@@ -1,6 +1,6 @@
 /*===== SCROLL REVEAL ANIMATION =====*/
 // A JavaScript code to use the srr revel animation
-const srrr = ScrollReveal({
+const srr = ScrollReveal({
     origin: 'right',
     distance: '70px',
     duration: 1000,
