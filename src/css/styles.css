@@ -282,7 +282,7 @@ img {
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 80%;
+        width: 60%;
         height: 100%;
         padding: 2rem;
         background-color: var(--nav-color);
@@ -408,8 +408,8 @@ img {
 .home__img {
     position: absolute;
     bottom: 5%;
-    right: 25%;
-    width: 250px;
+    right: 10%;
+    width: 220px;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 15px var(--nav-color), 0 0 16px 15px var(--nav-color);
 }
@@ -803,7 +803,7 @@ a:active {
         margin-right: auto;
     }
     .home__img {
-        right: 25%;
+        right: 15%;
     }
 }
 
