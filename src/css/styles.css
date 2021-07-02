@@ -428,6 +428,7 @@ img {
     padding: 0.75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: 20px;
+    margin-bottom: 15px
 }
 
 .button:hover {
