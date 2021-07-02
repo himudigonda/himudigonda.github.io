@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- TODO Contact Section -->
+<!-- TODO Education Section -->
+
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/src/css/styles.css" />
 
     <!-- =====BOX ICONS===== -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -16,9 +19,11 @@
 
 </head>
 
+
 <!-- <body> -->
 
-<body onclick="pickColor()">
+<body>
+
     <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -58,7 +63,7 @@
         </nav>
     </header>
 
-    <main class="l-main">
+    <main class="l-main" onclick="pickColor()">
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="home__data">
@@ -269,7 +274,7 @@
         </section>
 
         <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
+        <!-- <section class="contact section" id="contact">
             <h2 class="section-title">Ping Me</h2>
 
             <div class="contact__container bd-grid">
@@ -280,7 +285,7 @@
                     <input type="button" value="Submit" class="contact__button button" />
                 </form>
             </div>
-        </section>
+        </section> -->
 
     </main>
 
@@ -309,7 +314,10 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--===== MAIN JS =====-->
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="/src/js/sr.js"></script>
+    <script type="text/javascript" src="/src/js/menu.js"></script>
+    <script type="text/javascript" src="/src/js/themer.js"></script>
+    <script type="text/javascript" src="/src/js/dark-theme.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 
