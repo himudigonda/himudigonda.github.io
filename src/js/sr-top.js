@@ -3,7 +3,7 @@
 const srt = ScrollReveal({
     origin: 'top',
     distance: '70px',
-    duration: 1000,
+    duration: 600,
     reset: true
 });
 /*SCROLL HOME*/
