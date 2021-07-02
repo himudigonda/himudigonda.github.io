@@ -351,7 +351,7 @@ img {
 
 .home {
     height: calc(100vh - 3rem);
-    row-gap: 1rem;
+    row-gap: 3rem;
 }
 
 .home__data {
@@ -369,7 +369,7 @@ img {
 }
 
 .home__title-color,
-.home__subtitle-color {
+.home__subtitle {
     color: var(--first-color);
     font-weight: 600;
 }
@@ -378,7 +378,8 @@ img {
     font-size: 2rem;
 }
 
-.home__subtitle {
+.home__subtitle1,
+.home__subtitle2 {
     /* color: var(--first-color); */
     font-size: 1.4rem;
     font-weight: 100;
@@ -438,7 +439,7 @@ img {
 /* ===== ABOUT =====*/
 
 .about__container {
-    row-gap: 2rem;
+    row-gap: 3rem;
     text-align: center;
 }
 
@@ -459,7 +460,7 @@ img {
 /* ===== SKILLS =====*/
 
 .skills__container {
-    row-gap: 2rem;
+    row-gap: 3rem;
     text-align: center;
 }
 
@@ -567,7 +568,7 @@ img {
     margin: auto;
     position: relative;
     align-items: center;
-    row-gap: 2rem;
+    row-gap: 3rem;
     text-align: center;
     width: 100%;
 }
@@ -576,7 +577,7 @@ img {
     justify-content: space-between;
     position: relative;
     align-items: center;
-    row-gap: 2rem;
+    row-gap: 3rem;
     text-align: center;
     width: auto;
     display: grid;
@@ -770,7 +771,11 @@ a:active {
         align-items: center;
         text-align: initial;
     }
-    .about__text {
+    .about__text1,
+    .about__text2,
+    .about__text3,
+    .about__text4,
+    .about__text5 {
         line-height: 3rem;
         font-size: 20px;
     }
@@ -819,7 +824,7 @@ a:active {
         justify-content: space-between;
         position: relative;
         align-items: center;
-        row-gap: 2rem;
+        row-gap: 3rem;
         text-align: center;
         width: auto;
         display: grid;
