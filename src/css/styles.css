@@ -605,7 +605,7 @@ skills__data__mini:hover{
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
 }
-.education__controller{
+.education__controller_right,.education__controller_left{
     margin: 0px;
 }
 
@@ -666,6 +666,7 @@ skills__data__mini:hover{
     text-align: left;
     font-weight: 400;
     font-size: 14px;
+    /* font-style: italic; */
     line-height:1.5rem;
 }
 
