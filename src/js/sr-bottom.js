@@ -14,3 +14,6 @@ srb.reveal('.footer', { interval: 150 });
 srb.reveal('.footer__title', { interval: 150 });
 srb.reveal('.footer__text', { interval: 150 });
 srb.reveal('.footer__social-icon', { interval: 150 });
+
+/*SKILLS MINI*/
+srb.reveal('.skills__data__mini', { interval: 50 });
