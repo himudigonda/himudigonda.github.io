@@ -624,7 +624,7 @@ skills__data__mini:hover{
 }
 .education__data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
@@ -918,6 +918,7 @@ a:active {
     .contact__container {
         justify-items: center;
     }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -959,12 +960,14 @@ a:active {
         align-items: center;
         text-align: initial;
         gap: 0px;
+        /* padding:0px; */
     }
+
 }
 
 
-/* @media screen and (max-width: 768px) {
-    .project__data {
+@media screen and (max-width: 586px) {
+    /* .project__data {
         box-shadow: 0 0 4px var(--backg-color2);
         margin: auto;
         min-width: 200px;
@@ -976,5 +979,9 @@ a:active {
         display: flex;
         justify-content: center;
         align-items: centzer;
+    } */
+
+    .section{
+        padding: 0px
     }
-} */
+}
