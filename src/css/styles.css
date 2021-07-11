@@ -482,7 +482,7 @@ img {
     position: relative;
     font-weight: var(--font-semi);
     padding: 0.5rem 1rem;
-    margin-bottom: var(--mb-4);
+    margin-bottom: 50px;
     border-radius: 20px;
     height: 80px;
     /* box-shadow: 0 0 4px var(--backg-color2); */
