@@ -26,8 +26,8 @@ function apply_dark_theme() {
 function pickColor() {
     console.log("in pickColor function")
     var colors = [
-        // '#e17f6f', '#eebd5a', '#95c78e'
-        "#5e9bff", "#ff5d4f", "#ffb152", "#32bf7a"
+        // '#e17f6f', '#eebd5a', '#95c78e' #ffb152
+        "#4d87e8", "#e0584c", "#e89c4a", "#32bf7a"
     ];
     var random_color = colors[Math.floor(
         Math.random() * colors.length)];
