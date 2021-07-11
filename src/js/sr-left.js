@@ -15,3 +15,6 @@ srl.reveal('.skills__img', { delay: 500 });
 
 /*SCROLL CONTACT*/
 srl.reveal('.contact__input', { interval: 200 });
+
+/*EDUCATION RIGHT*/
+srl.reveal('.education__controller_right', { interval: 200 });

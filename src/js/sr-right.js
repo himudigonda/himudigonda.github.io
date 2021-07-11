@@ -19,3 +19,7 @@ srr.reveal('.about__text5', { delay: 600 });
 
 /*SCROLL project*/
 srr.reveal('.project__data', { interval: 100 });
+
+/*EDUCATION RIGHT*/
+srl.reveal('.education__controller_left', { interval: 200 });
+srl.reveal('.education__points', { interval: 200 });
