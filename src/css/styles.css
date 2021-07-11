@@ -224,8 +224,8 @@ img {
 }
 
 .section {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding: 3rem;
+    /* padding-bottom: 2rem; */
 }
 
 .back__2__top {
@@ -597,7 +597,77 @@ skills__data__mini:hover{
 .skills__data:hover>.skills__bar {
     background-color: var(--nav-color);
 }
+/* ===== EDUCATION ===== */
+.education__container {
+    row-gap: 3rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+.education__controller{
+    margin: 0px;
+}
 
+.education__subtitle {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.fas{
+    /* box-shadow: 0 0 8px var(--backg-color2); */
+    background-color:var(--backg-color);
+    color: var(--first-color);
+    padding: 10px;
+    border-radius: 50%;
+    margin:10px;
+    margin-top:20px;
+}
+.education__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: 0rem 1rem;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 350px;
+    background-color: var(--nav-color);
+    width:100%;
+    
+}
+.education__data:hover {
+    /* box-shadow: 0 4px 20px rgba(14, 36, 49, .15); */
+    /* box-shadow: 0 0 8px var(--backg-color2); */
+    background-color: var(--first-color);
+    box-shadow: 0 0 8px var(--first-color);
+}
+
+.education__name{
+    margin-left:15px;
+}
+
+.education__names {
+    margin-left:20px;
+    /* display: flex; */
+    align-items: center;
+}
+.education__details{
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    line-height:1.5rem;
+}
+.education__logo{
+    width: 200px;
+}
+.education__points{
+    margin-top: 5px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.5rem;
+}
 
 /* ===== PROJECT =====*/
 
@@ -814,6 +884,17 @@ a:active {
         align-items: center;
         text-align: initial;
     }
+    .education__controller{
+        padding: 0px;
+    }
+    .education__container{
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom:0px;
+        align-items: center;
+        text-align: initial;
+
+        /* padding: 25px */
+    }
     .about__text1,
     .about__text2,
     .about__text3,
@@ -872,6 +953,12 @@ a:active {
         width: auto;
         display: grid;
         margin: auto;
+    }
+    .education__container{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: initial;
+        gap: 0px;
     }
 }
 
