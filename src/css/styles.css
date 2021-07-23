@@ -40,7 +40,10 @@
   --normal-font-size: 0.938rem;
 }
 
-@media screen and (min-width: 768px) {
+@font-face {
+   font-family: "Euclid Flex";
+   src: url(assets/fonts/EuclidFlex-Regular.ttf);
+}
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
