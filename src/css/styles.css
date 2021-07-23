@@ -894,7 +894,9 @@ a:active {
   .about__text2,
   .about__text3,
   .about__text4,
-  .about__text5 {
+  .about__text5,
+  .about__text6
+   {
     line-height: 3rem;
     font-size: 20px;
   }

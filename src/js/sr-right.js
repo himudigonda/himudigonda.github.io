@@ -16,6 +16,7 @@ srr.reveal('.about__text2', { delay: 300 });
 srr.reveal('.about__text3', { delay: 400 });
 srr.reveal('.about__text4', { delay: 500 });
 srr.reveal('.about__text5', { delay: 600 });
+srr.reveal('.about__text6', { delay: 700 });
 
 /*SCROLL project*/
 srr.reveal('.project__data', { interval: 100 });
