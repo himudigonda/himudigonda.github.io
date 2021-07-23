@@ -37,8 +37,11 @@
 
 /*===== Fuente y tipografia =====*/
 
-:root {
+html{
   font-family: EF;
+}
+
+:root {
   /* --body-font: "Euclid Flex", sans-serif; */
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
