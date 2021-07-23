@@ -975,9 +975,7 @@ a:active {
         align-items: centzer;
     } */
 
-  .section {
-    padding: 0px;
-  }
+
   .footer {
     margin-top: 50px;
   }
@@ -991,4 +989,12 @@ a:active {
   display: flex;
   margin: 15px;
   margin-bottom: 0px;
+}
+.section {
+  margin-bottom: 0px;
+  min-height: calc(100vh - 3rem);
+} 
+.footer {
+  /* margin-bottom: 10px; */
+  height: calc(50vh - 3rem);
 }
