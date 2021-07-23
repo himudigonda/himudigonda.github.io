@@ -1,7 +1,10 @@
 /*===== GOOGLE FONTS =====*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-
+@font-face {
+  font-family: EF;
+  src: url("/assets/fonts/EuclidFlex-Regular.ttf");
+}
 /*===== VARIABLES CSS =====*/
 
 :root {
@@ -12,6 +15,7 @@
   -ms-user-select: none;
   user-select: none;
   -o-user-select: none;
+  
 }
 
 /*===== Colores =====*/
@@ -34,16 +38,14 @@
 /*===== Fuente y tipografia =====*/
 
 :root {
-  --body-font: "Euclid Flex", sans-serif;
+  font-family: EF;
+  /* --body-font: "Euclid Flex", sans-serif; */
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
 
-@font-face {
-   font-family: "Euclid Flex";
-   src: url(assets/fonts/EuclidFlex-Regular.ttf);
-}
+@media screen and (min-width: 768px) {
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
