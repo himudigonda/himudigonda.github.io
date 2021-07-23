@@ -1,8 +1,9 @@
 /*===== GOOGLE FONTS =====*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 @font-face {
-  font-family: EF;
+  font-family: 'EF';
   src: local('Euclid Flex'),local('Euclid-Flex'),url(EuclidFlex-Regular.ttf) format('truetype');
 }
 /*===== VARIABLES CSS =====*/
@@ -38,7 +39,7 @@
 /*===== Fuente y tipografia =====*/
 
 html{
-  font-family: EF;
+  font-family: 'EF','poppins';
 }
 
 :root {
