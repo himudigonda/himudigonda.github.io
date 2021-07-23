@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @font-face {
   font-family: EF;
-  src: url(EuclidFlex-Regular.ttf);
+  src: local('Euclid Flex'),local('Euclid-Flex'),url(EuclidFlex-Regular.ttf) format('truetype');
 }
 /*===== VARIABLES CSS =====*/
 
