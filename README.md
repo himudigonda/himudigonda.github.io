@@ -1,4 +1,8 @@
-# WIP: A redesign of portfolio... 
+# Portfolio
 
-<a href="https://ruhend.github.io/WIP-alternative">https://ruhend.github.io/WIP-alternative</a>
+<a href="https://ruhend.github.io/portfolio">https://ruhend.github.io/portfolio</a>
 
+## TODO
+- [ ] Contact us
+- [ ] Experience
+- [ ] Finalize
