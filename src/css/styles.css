@@ -974,7 +974,9 @@ a:active {
         justify-content: center;
         align-items: centzer;
     } */
-
+    .section {
+      padding: 0px;
+    }
 
   .footer {
     margin-top: 50px;
