@@ -682,7 +682,7 @@ skills__data__mini:hover {
   width: 100%;
 }
 
-.project__container {
+.project__container,.badge__container {
   justify-content: space-between;
   position: relative;
   align-items: center;
@@ -760,6 +760,18 @@ a:active {
   margin-left: auto;
 }
 
+.badge__container{
+  background-color: var(--backg-color2);
+  border-radius: 20px;
+  padding:50px;
+  /* grid-row:1; */
+  display:flex;
+  gap: 125px;
+}
+
+.badge{
+  color: red;
+}
 /* ===== FOOTER =====*/
 
 .footer {
