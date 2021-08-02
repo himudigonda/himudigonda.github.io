@@ -1,3 +1,4 @@
+/*===== DARK THEME =====*/
 function theme_switcher() {
     const cb = document.getElementById('mode-setter');
     console.log("Theme switcher");
