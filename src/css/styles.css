@@ -3,8 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 @font-face {
-  font-family: 'EF';
-  src: local('Euclid Flex'),local('Euclid-Flex'),url(EuclidFlex-Regular.ttf) format('truetype');
+  font-family: "EF";
+  src: local("Euclid Flex"), local("Euclid-Flex"),
+    url(EuclidFlex-Regular.ttf) format("truetype");
 }
 /*===== VARIABLES CSS =====*/
 
@@ -16,7 +17,6 @@
   -ms-user-select: none;
   user-select: none;
   -o-user-select: none;
-  
 }
 
 /*===== Colores =====*/
@@ -38,8 +38,8 @@
 
 /*===== Fuente y tipografia =====*/
 
-html{
-  font-family: 'EF','poppins';
+html {
+  font-family: "EF", "poppins";
 }
 
 :root {
@@ -109,6 +109,74 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+#preloader {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  position: fixed;
+  background-color: var(--backg-color);
+}
+
+#loading-animation {
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: -100px 0 0 -100px;
+  background: url("loading-animation.gif") center center no-repeat;
+}
+
+/* The dot */
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 10;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  border-radius: 999px;
+  background-color: var(--first-color);
+  /* transform-type: preserve-3d; */
+  animation: loader 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.dot:nth-child(2) {
+  z-index: 9;
+  animation-delay: 0.05s;
+  background-color: var(--backg-color2);
+}
+
+.dot:nth-child(3) {
+  z-index: 8;
+  animation-delay: 0.1s;
+  background-color: var(--first-color);
+}
+.dot:nth-child(4) {
+  z-index: 8;
+  animation-delay: 0.15s;
+  background-color: var(--backg-color2);
+}
+.dot:nth-child(5) {
+  z-index: 8;
+  animation-delay: 0.2s;
+  background-color: var(--first-color);
+}
+
+@keyframes loader {
+  0% {
+    left: 10%;
+    transform: translateX(0);
+  }
+  50% {
+    left: 90%;
+    transform: translateX(-100%);
+  }
 }
 
 /* The switch - the box around the slider */
@@ -682,7 +750,8 @@ skills__data__mini:hover {
   width: 100%;
 }
 
-.project__container {
+.project__container,
+.badge__container {
   justify-content: space-between;
   position: relative;
   align-items: center;
@@ -760,6 +829,18 @@ a:active {
   margin-left: auto;
 }
 
+.badge__container {
+  background-color: var(--backg-color2);
+  border-radius: 20px;
+  padding: 50px;
+  /* grid-row:1; */
+  display: flex;
+  gap: 125px;
+}
+
+.badge {
+  color: red;
+}
 /* ===== FOOTER =====*/
 
 .footer {
@@ -895,8 +976,7 @@ a:active {
   .about__text3,
   .about__text4,
   .about__text5,
-  .about__text6
-   {
+  .about__text6 {
     line-height: 3rem;
     font-size: 20px;
   }
@@ -974,9 +1054,9 @@ a:active {
         justify-content: center;
         align-items: centzer;
     } */
-    .section {
-      padding: 0px;
-    }
+  .section {
+    padding: 0px;
+  }
 
   .footer {
     margin-top: 50px;
@@ -995,7 +1075,7 @@ a:active {
 .section {
   margin-bottom: 0px;
   min-height: calc(100vh - 3rem);
-} 
+}
 .footer {
   /* margin-bottom: 10px; */
   height: calc(50vh - 3rem);
