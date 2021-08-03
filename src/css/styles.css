@@ -1071,6 +1071,9 @@ a:active {
   .footer {
     margin-top: 50px;
   }
+  .project__data:hover .info{
+    display: none;
+  }
 }
 
 .viewcountdiv,
