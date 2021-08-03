@@ -186,8 +186,8 @@ ul {
   display: inline-block;
   width: 28px;
   height: 28px;
-  transform: translateX(20px);
-  transform: translatey(-1px);
+  /* transform: translateX(20px); */
+  /* transform: translatey(-1px); */
 }
 
 /* Hide default HTML checkbox */
@@ -202,16 +202,18 @@ ul {
 
 .slider {
   position: absolute;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -40px;
+  margin-right: 20px;
+  margin-top: -3px;
+  margin-bottom: 3px;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  /* -webkit-transition: 0.4s;
+  transition: 0.4s; */
 }
 
 .slider:before {
@@ -235,7 +237,7 @@ input:checked + .slider {
 } */
 
 input:hover + .slider {
-  box-shadow: 0 0 8px var(--backg-color2);
+  box-shadow: 0 0 7px var(--first-color);
 }
 
 input:checked + .slider:before {
@@ -1051,6 +1053,25 @@ a:active {
   .project__data:hover .info{
     display: none;
   }
+  
+}
+@media screen and (max-width: 769px) {
+  .slider {
+    position: absolute;
+    margin-left: 0px;
+    margin-right: -20px;
+    margin-top:-20px;
+    margin-bottom:20px;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+   
 }
 
 @media screen and (max-width: 586px) {
@@ -1090,7 +1111,7 @@ a:active {
 }
 .section {
   margin-bottom: 0px;
-  /* min-height: calc(100vh - 3rem); */
+  min-height: calc(100vh - 3rem);
 }
 /* .footer {
   height: calc(50vh - 3rem); 
