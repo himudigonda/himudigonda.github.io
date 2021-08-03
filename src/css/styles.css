@@ -1048,6 +1048,9 @@ a:active {
     gap: 0px;
     /* padding:0px; */
   }
+  .project__data:hover .info{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 586px) {
