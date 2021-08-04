@@ -795,10 +795,18 @@ skills__data__mini:hover {
   /* padding:4rem; */
 }
 
+.project__data:hover .project__name{
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
 .project__names {
   display: flex;
   align-items: center;
   text-align: center;
+  font-size: 1.2rem;
+  
 }
 
 .info{
