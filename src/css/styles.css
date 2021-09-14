@@ -52,7 +52,7 @@ html {
     --normal-font-size: 0.938rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
      :root {
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
@@ -982,7 +982,7 @@ a:active {
 
 /* ===== MEDIA QUERIES=====*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     /* .page__counter {
     margin-left: 46.5%;
   } */
@@ -1140,7 +1140,8 @@ a:active {
     }
 }
 
-@media screen and (max-width: 769px) {
+
+/* @media screen and (max-width: 769px) {
     .slider {
         position: absolute;
         margin-left: 0px;
@@ -1156,7 +1157,7 @@ a:active {
         -webkit-transition: 0.4s;
         transition: 0.4s;
     }
-}
+} */
 
 @media screen and (max-width: 586px) {
     /* .project__data {
